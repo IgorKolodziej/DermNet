@@ -35,9 +35,9 @@ pip install -r requirements.txt
 ```
 
 ## Project Structure
+- '00_presentation.pdf': Presentation slides.
 - `01_EDA.ipynb`: Exploratory Data Analysis of the dataset.
 - '02_dermnet_clustering.ipynb': Complete pipeline for image clustering.
-- 'dermnet.pdf': Presentation slides.
 - `embeddings_dino_base.npy`: DINOv2 embeddings for the dataset without duplicates.
 - 'embeddings_dino_base_with_duplicates.npy': DINOv2 embeddings for the dataset with duplicates.
 - 'cluster_labels.csv': Cluster labels for the train part of the dataset.

@@ -73,7 +73,7 @@ The clusters were mostly divided by body parts, demonstrating the effectiveness 
 Additionally, we managed to isolate contaminated clusters of images that should not belong to the dataset. 
 
 ![Contaminated Cluster](images/contaminated_cluster.png)
-An example of a contaminated cluster. Does anyone know what that is??"
+An example of a contaminated cluster. Does anyone know what that is?
 
 ## Final Model
 Despite KMeans showing slightly better metrics, we choose Agglomerative Clustering for the final model due to its robustness, flexibility, and ability to handle clusters of arbitrary shapes, providing a hierarchical clustering tree for better insight into the data structure.
